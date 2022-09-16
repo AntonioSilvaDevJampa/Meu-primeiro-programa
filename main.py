@@ -35,6 +35,10 @@ print(type(lista1))
 
 print(lista1[4])
 
+# para acrescentar algum item na minha lista eu posso usar o .append da seguinte forma coloca-se a variável no nosso caso list1 ponto append abre parênteses coloca o valor e fecha o parênteses  
 
+lista1.append('cavalo') 
 
+print(lista1) 
 
+# nesse caso ele entra depois dos outros itens itens já existentes na lista 
