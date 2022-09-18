@@ -42,3 +42,33 @@ lista1.append('cavalo')
 print(lista1) 
 
 # nesse caso ele entra depois dos outros itens itens já existentes na lista 
+
+# para inserir novos itens na lista em uma posição determinada usamos o .insert da seguinte maneira: o nome da lista mais o .insert e entre parenteses o índice e o item a ser inserido e fecha o parênteses
+
+lista1.insert(2,'chocolate ')
+
+print(lista1)
+
+
+# para remover um item na lista nos temos vários comandos,  o primeiro é .remove,  o segundo é .pop e o terceiro é del,  usamos da seguinte maneira:  o nome da lista mais o .remove e entre parenteses o nome do item a ser removido.
+
+lista1.remove('cavalo')
+
+print(lista1)
+
+# usamos .pop da seguinte forma coloca-se o nome mais .pop e entre parenteses coloca-se o índice de acordo com o item a ser eliminado.
+
+lista1.pop(0)
+
+print(lista1)
+
+# Para usar o del primeiro colocamos del espaço  o nome da lista e entre colchetes o índice do item a ser excluído.
+
+del lista1[2]
+
+print(lista1)
+
+
+
+
+
