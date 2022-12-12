@@ -1,4 +1,7 @@
 # Hoje dia 17/08/22 estou começando a codar pela primeira vez#
+
+# Como concantenar strings , primeiro colocar dentro de uma variavel um valor e depois não esquecer de colocar um espaço antes da ultima aspa para ter espaço entre cada string quando for printar. 
+
 nome1 = "Antonio"
 
 print(nome1)
@@ -73,31 +76,37 @@ lista1.pop()
 
 print(lista1)
 
-# Nas listas nos podemos fatiar ou fazer slices usando varios parametros atraves do indice para mostrar edeterminados elementos da lista.
-
-
+# Nas listas nos podemos fatiar ou fazer slices usando varios parametros atraves do indice para mostrar determinados elementos da lista.
 
 lista2 = [51, 10, 8, 4, 19, 32, 24, 11, 5, 2, 25, 7]
 
+# usamos o sort() para ordenar uma lista de maneira crescente do menor para o maior 
 
 lista2.sort()
 
-
 print(lista2)
+
+# Usamos o len para saber quantos elementos temos dentro da lista. 
 
 print(len(lista2))
 
+# Nesse caso fatiamos na lista do indice 0 até o indice 3. 
+
 print(lista2[0:4])
-
-# Nesse caso foi selecionado do indice 0 ate e indice 3 ou seja do indice 0 até o indice 3.
-
-print(lista2[:4])
 
 # Nesse caso ocorreu a repetição da sequencia anterior porque quando não selecionamos o parametro inicial o python entende que estamos iniciando do indice 0 .
 
-print(lista2[0:])
+print(lista2[:4])
 
 # nesse caso como só aparece apenas o primeiro parametro o python entende que começa do indice 0 e vai até o ultimo indice.
+
+print(lista2[0:])
+
+# podemos usar tambem o indice negativo para buscar do final da lista para o inicio. 
+
+print(lista2[-1])
+
+
 
 
 
