@@ -106,6 +106,10 @@ print(lista2[0:])
 
 print(lista2[-1])
 
+# para saber o tipo de dados de minha lista eu uso o comando type() . 
+
+print(type(lista2))
+
 
 
 
